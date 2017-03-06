@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src='/scripts/d3.js'></script>
+
+  <style>
+    .chart {
+      background: lightgray;
+      border: 1px solid black;
+      /*min-width: 200px;
+      min-height: 350px;*/
+    }
+    
+    #block {
+      border: 1px solid black;
+      background: gainsboro;
+      height: 100px;
+      width: 100px;
+    }
+    
+    .bar {
+      height: 30px;
+      fill: indianred;
+      stroke: black;
+      stroke-width: 2px;
+    }
+  </style>
+</head>
+
+<body>
+  <!--<div id='block'>
+  </div>-->
+  <div class='chart'>
+  </div>
+
+  <button onClick="render('math')">Math</button>
+  <button onClick="render('language')">Language</button>
+  <button onClick="render('science')">Science</button>
+
+  <script src='script2.js'></script>
+</body>
+
+</html>

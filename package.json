@@ -1,0 +1,14 @@
+{
+  "name": "d3-ideas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "d3": "^4.7.1",
+    "express": "^4.15.0",
+    "nodemon": "^1.11.0"
+  }
+}
